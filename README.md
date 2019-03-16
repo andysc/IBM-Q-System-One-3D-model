@@ -29,4 +29,8 @@ Glass walls in 1mm acrylic (2 of each size)
 front and back: 92 x 81 mm
 left and right: 85 x 81 mm
 
-![IBM Q System One model]()
+![IBM Q System One model](https://github.com/andysc/Quantum/blob/master/IMG_2301.jpeg)
+
+The top box has a row of 8 neopixels (144 leds/metre) inside, with a Wemos ESP-8266 Arduino controlling it via MQTT over WiFi
+
+![top box detail](https://github.com/andysc/Quantum/blob/master/IMG_2407.jpeg)
