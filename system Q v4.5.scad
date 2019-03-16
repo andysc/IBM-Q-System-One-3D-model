@@ -442,12 +442,12 @@ color(white) {
         }
         // make a little hole for the cryostat to sit in
         translate([width/2, inside_gap + 7.5 + cryostat_diameter/2, 
-            base_height + back_box_height])
+            base_height + back_box_height + d7])
             cylinder(d=cryostat_diameter+ 2*tolerance, h=box_walls/2, $fn=200);
     }  
     // make a little mound for the chrome tube to sit over
     translate([width/2, inside_gap + 7.5 + cryostat_diameter/2, 
-            base_height + back_box_height - 5 + box_walls])
+            base_height + back_box_height - 5 + box_walls + d7])
             cylinder(d=cryostat_diameter - 1 - 2*tolerance, h=5, $fn=200);
             // where "1" is 2 x the wall thickness of the chrome tube
             // and where "5" (in the translate and the cylinder) are the height of the mound
