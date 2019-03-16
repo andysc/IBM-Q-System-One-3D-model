@@ -31,7 +31,7 @@ left and right: 85 x 81 mm
 
 ## Exploded view of the printed components
 
-![exploded view](https://github.com/andysc/Quantum/blob/master/SystemQ.png)
+![exploded view](https://github.com/andysc/Quantum/blob/master/system%20Q.png)
 
 ## The finished model
 
@@ -39,6 +39,9 @@ left and right: 85 x 81 mm
 
 ## Electronics 
 
-The top box has a row of 8 neopixels (144 leds/metre) inside, with a Wemos ESP-8266 Arduino controlling it via MQTT over WiFi
+The top box has a row of 8 neopixels (144 leds/metre) inside, with a Wemos ESP-8266 Arduino (in the back box) controlling it via MQTT over WiFi. There's a cut-out for a micro-USB cable to come out through the back of the base.  
+
+For information about how to connect a Wemos with Neopixels using MQTT, see @DrLucyRogers' excellent article here:
+[Connect your IoT "Thing" to the Cloud](https://www.rs-online.com/designspark/content-types/project/13257?lang=en)
 
 ![top box detail](https://github.com/andysc/Quantum/blob/master/IMG_2057.jpeg)
