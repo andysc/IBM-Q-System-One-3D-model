@@ -32,7 +32,7 @@ left and right: 85 x 81 mm
 
 ## Exploded view of the printed components
 
-![exploded view](https://github.com/andysc/Quantum/blob/master/system%20Q.png)
+![exploded view](https://github.com/andysc/Quantum/blob/master/System%20Q%20v4.5.png)
 
 ## The finished model
 
