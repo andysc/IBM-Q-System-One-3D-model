@@ -5,6 +5,7 @@ OpenSCAD model of a 1cm to 1foot scale model of the IBM Q System One Quantum Com
 
 
 ## Print list...
+Set one of the control variables to *true* and all the others to *false* at the top of the model file to render each component in turn.
 
 *black filament*
 + base 
