@@ -28,3 +28,5 @@ Cryostat needs to be a 25mm x 44mm silver tube (I used chrome-plated wardrobe ra
 Glass walls in 1mm acrylic (2 of each size)
 front and back: 92 x 81 mm
 left and right: 85 x 81 mm
+
+![IBM Q System One model]()
