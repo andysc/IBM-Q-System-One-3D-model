@@ -40,10 +40,10 @@
 // set each of these true in turn, and all the others false, to make each component
 
 
-base = false;
+base = true;
 base_lid = false;
 back_box = false;
-top_box = true;
+top_box = false;
 top_box_lid = false;
 
 // translucent
