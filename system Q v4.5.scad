@@ -16,7 +16,8 @@
 // 1. base 
 // 2. base_lid 
 // 3. back_box  * print with raft *
-// 4. top_box
+// 4. top_box * print with 1mm brim *
+//    (then trim off all *except* the hole where the diffuser goes, as we need the lip to sit the diffuser on)
 // 5. top_box_lid (inverted) 
 // 6. lid (inverted)
 // 7. lid_lower (inverted)
@@ -281,24 +282,14 @@ translate([inside_gap+mink_radius, inside_gap + mink_radius, base_height + back_
             }
             
             // hole for the diffuser
-            // inner hole
-            brim_width = 1;
-            translate([brim_width,brim_width,-box_walls])
-                minkowski() {
-                    cube([width - 2*inside_gap - 2*mink_radius - 2*box_walls - 2*brim_width, 
-                            5/8* 77 - 2*mink_radius - 2*box_walls - 2*brim_width,
-                        top_box_height+0.1]);
-                    cylinder(r=mink_radius, h=0.0001, $fn=100);
-                }  
-            // outer hole    
-            translate([0,0,-box_walls+0.5])
+            translate([0,0,-box_walls])
                 minkowski() {
                     cube([width - 2*inside_gap - 2*mink_radius - 2*box_walls, 
                             5/8* 77 - 2*mink_radius - 2*box_walls,
                         top_box_height+0.1]);
                     cylinder(r=mink_radius, h=0.0001, $fn=100);
-                }    
-                    
+                }
+             
             // a hole for the wires
             translate([0,77 - 2*mink_radius - 2*box_walls - wire_hole,-box_walls])         
                 difference() {    
