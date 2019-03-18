@@ -32,7 +32,7 @@
 
 // glass walls in 1mm acrylic
 // front and back: 92 x 81 mm
-// left and right: 85 x 81 mm
+// left and right: 85 x 81 mm 
 
 // --------------------------------------------------------------------------------
 // these should be the only bits you need to change (down to next dashed line)
