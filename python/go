@@ -1,0 +1,3 @@
+source activate QISKitenv
+python  flip.py
+conda deactivate
